@@ -41,7 +41,7 @@ export default function inViewport(
      */
     const observer = new IntersectionObserver((entries, observer) => {
       entries.forEach((change) => {
-        if (change.intersectionRatio > 0) {
+        if (change.isIntersecting === true && change.intersectionRatio > 0) {
           if (Array.isArray(callback)) {
             callback[0]();
             if (callback.length === 1) {
