@@ -1,9 +1,9 @@
 {
   "name": "javascript-inviewport",
-  "version": "4.0.11",
+  "version": "4.0.12",
   "description": "A simple to use, light weight, zero dependency, pure JavaScript and TypeScript ready plugin that uses the intersection observer to determine whether an element has entered within the windows viewport.",
-  "main": "./inviewport.min.js",
-  "types": "./inviewport.d.ts",
+  "main": "./output/inviewport.min.js",
+  "types": "./output/inviewport.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ianrogren/javascript-inviewport.git"
